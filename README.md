@@ -27,13 +27,13 @@ Properties will come from an API that we have created
   **remove the serviceWorker.js and SVG file - app will crash at this point
   * *open *index.js* which is our app entry point
     * delete comments, serviceWorker import and serviceWorker.unregister(); 
-  * open *App.js* and replace everything within the div with <h2>Surreal Estate</h2>
+  * open *App.js* and replace everything within the div with 'Surreal Estate' in h2 tag
 
 ## /src file structure
 In src, create 3 folders: *components*, *tests* & *styles*
  * move *App.js*, *App.test.js* & *App.css* into them respectively
  * /src now contains index.js, index.css and the configuration file that powers our test suite- setupTests.js
- * now update import paths by following the failed to compile errors in the browser, delete useless import paths too (remember logo.svg? delete the import path, its the reason '<h2>Surreal Estate</h2>' has not been rendered before we started changing src file structure)
+ * now update import paths by following the failed to compile errors in the browser, delete useless import paths too (remember logo.svg? delete the import path, its the reason 'Surreal Estate' in h2 tag has not been rendered before we started changing src file structure)
  * delete all the styles in App.css
  * run ```npm test```
    * change import path for *App* & 'learn react' to 'surreal estate'
