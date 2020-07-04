@@ -67,10 +67,14 @@ In any other project we would start by installing eslint as one of of dev depend
 ```
 We can do this by writing on the command line:
 ``` npm i -D  eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks ```
+
 This will install a set of eslint plugins that support Airbnb Style Guide but, will result in compilation error in the browser;
+
 **Failed to compile**
-*./node_modules/scheduler/index.js*
-*Error: ENOENT: no such file or directory, open '/node_modules/scheduler/index.js'*
+
+./node_modules/scheduler/index.js
+Error: ENOENT: no such file or directory, open '/node_modules/scheduler/index.js'
+
 So we need to add a configuration file *.eslintrc.json* to the root of our project with the following content:
 ``` {
   "env": {
