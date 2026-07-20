@@ -12,7 +12,7 @@ Properties will come from an API that we have created
   * Controlled Inputs
   * HTTP Requests
   * API Interaction
-  * OAut
+  * OAuth
 
 ## Getting Started
 ``` run npx-create-react-app surreal estate ```
